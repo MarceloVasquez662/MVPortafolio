@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Scroll from "./Scroll";
 
 export default class Footer extends Component {
   render() {
