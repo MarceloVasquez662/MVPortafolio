@@ -20,17 +20,17 @@ export default class Acerca extends Component {
           <Card
             titulo="Primera pagina estatica creada con ReactJS"
             cuerpo="Luego de revisar lo mas importante de React, se aplica en esta pagina, dejando fuera algunas caracteristicas como React Router o el consumo de APIs. "
-            imagen="https://image.flaticon.com/icons/svg/969/969958.svg"
+            imagen="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/2300px-React.svg.png"
           />
           <Card
             titulo="Los iconos utilizados pertenecen a Flaticon.es"
             cuerpo="No son de mi autoria, por lo que se pueden encontrar todos en su pagina. "
-            imagen="https://image.flaticon.com/icons/svg/1443/1443367.svg"
+            imagen="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Picture_icon_BLACK.svg/1156px-Picture_icon_BLACK.svg.png"
           />
           <Card
             titulo="Componentes como estructura"
             cuerpo="La base son los componentes. Es por esto que la estructuracion se basa en estos. "
-            imagen="https://image.flaticon.com/icons/svg/915/915492.svg"
+            imagen="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Componente_01.svg/2560px-Componente_01.svg.png"
           />
         </div>
       </div>

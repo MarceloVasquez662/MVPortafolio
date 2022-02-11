@@ -6,7 +6,7 @@ export default class Contacto extends Component {
       <div className="container p-5">
         <div className="row">
           <img
-            src="https://image.flaticon.com/icons/svg/126/126516.svg"
+            src="https://svgsilh.com/svg/304080.svg"
             width="30"
             height="30"
             alt="Contacto"
