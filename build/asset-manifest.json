@@ -1,25 +1,32 @@
 {
   "files": {
     "main.css": "/react_spa/static/css/main.a1e98686.chunk.css",
-    "main.js": "/react_spa/static/js/main.96f89081.chunk.js",
-    "main.js.map": "/react_spa/static/js/main.96f89081.chunk.js.map",
+    "main.js": "/react_spa/static/js/main.725cfcdf.chunk.js",
+    "main.js.map": "/react_spa/static/js/main.725cfcdf.chunk.js.map",
     "runtime-main.js": "/react_spa/static/js/runtime-main.9d66deac.js",
     "runtime-main.js.map": "/react_spa/static/js/runtime-main.9d66deac.js.map",
-    "static/js/2.d4c451b0.chunk.js": "/react_spa/static/js/2.d4c451b0.chunk.js",
-    "static/js/2.d4c451b0.chunk.js.map": "/react_spa/static/js/2.d4c451b0.chunk.js.map",
+    "static/js/2.df8cf8a8.chunk.js": "/react_spa/static/js/2.df8cf8a8.chunk.js",
+    "static/js/2.df8cf8a8.chunk.js.map": "/react_spa/static/js/2.df8cf8a8.chunk.js.map",
     "index.html": "/react_spa/index.html",
-    "precache-manifest.c5e165c9ef10ee65e4c88ac0cc8f95e0.js": "/react_spa/precache-manifest.c5e165c9ef10ee65e4c88ac0cc8f95e0.js",
+    "precache-manifest.9aa59c3a6d25fa90aa11968c464dd79a.js": "/react_spa/precache-manifest.9aa59c3a6d25fa90aa11968c464dd79a.js",
     "service-worker.js": "/react_spa/service-worker.js",
     "static/css/main.a1e98686.chunk.css.map": "/react_spa/static/css/main.a1e98686.chunk.css.map",
-    "static/js/2.d4c451b0.chunk.js.LICENSE.txt": "/react_spa/static/js/2.d4c451b0.chunk.js.LICENSE.txt",
+    "static/js/2.df8cf8a8.chunk.js.LICENSE.txt": "/react_spa/static/js/2.df8cf8a8.chunk.js.LICENSE.txt",
     "static/media/Acerca.svg": "/react_spa/static/media/Acerca.290d46d9.svg",
     "static/media/App.css": "/react_spa/static/media/fondoBanner.e6c4e27c.jpg",
-    "static/media/logo.svg": "/react_spa/static/media/logo.4009eef3.svg"
+    "static/media/iconProgramacion.svg": "/react_spa/static/media/iconProgramacion.080be0e9.svg",
+    "static/media/logo.svg": "/react_spa/static/media/logo.ec7f74e0.svg",
+    "static/media/logoProyectos.svg": "/react_spa/static/media/logoProyectos.671fa66c.svg",
+    "static/media/logofolder.svg": "/react_spa/static/media/logofolder.7345ae26.svg",
+    "static/media/logoimage.svg": "/react_spa/static/media/logoimage.ac659c97.svg",
+    "static/media/logomath.svg": "/react_spa/static/media/logomath.3c023664.svg",
+    "static/media/logomenu.svg": "/react_spa/static/media/logomenu.e6cc7412.svg",
+    "static/media/logopet.svg": "/react_spa/static/media/logopet.ff07f21b.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.9d66deac.js",
-    "static/js/2.d4c451b0.chunk.js",
+    "static/js/2.df8cf8a8.chunk.js",
     "static/css/main.a1e98686.chunk.css",
-    "static/js/main.96f89081.chunk.js"
+    "static/js/main.725cfcdf.chunk.js"
   ]
 }

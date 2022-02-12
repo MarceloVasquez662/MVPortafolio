@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import LogoAcerca from "../imagenes/Acerca.svg";
-import Card from "./Card";
+import imagenProgramacion from "../imagenes/iconProgramacion.svg"
+
 
 export default class Acerca extends Component {
   render() {
@@ -9,29 +10,26 @@ export default class Acerca extends Component {
         <div className="row">
           <img
             src={LogoAcerca}
-            alt="Acerca de la pagina"
+            alt="Acerca de mi"
             width="30"
             height="30"
             className="mr-2"
           />
-          <h1>Acerca de la pagina</h1>
+          <h1>Acerca de mi</h1>
         </div>
         <div className="row justify-content-center">
-          <Card
-            titulo="Primera pagina estatica creada con ReactJS"
-            cuerpo="Luego de revisar lo mas importante de React, se aplica en esta pagina, dejando fuera algunas caracteristicas como React Router o el consumo de APIs. "
-            imagen="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/2300px-React.svg.png"
-          />
-          <Card
-            titulo="Los iconos utilizados pertenecen a Flaticon.es"
-            cuerpo="No son de mi autoria, por lo que se pueden encontrar todos en su pagina. "
-            imagen="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Picture_icon_BLACK.svg/1156px-Picture_icon_BLACK.svg.png"
-          />
-          <Card
-            titulo="Componentes como estructura"
-            cuerpo="La base son los componentes. Es por esto que la estructuracion se basa en estos. "
-            imagen="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Componente_01.svg/2560px-Componente_01.svg.png"
-          />
+          <p>Titulado de la carrera Analista Programador, año 2019, CFT Inacap Valdivia.
+            Principiante en el mundo de la programacion, con ganas de aprender nuevas tecnologias
+            e intentando mejorar y pulir lo aprendido. Los lenguajes y tecnologias que pude aprender durante mi desarrollo tecnico fueron
+            <strong> Java</strong>, <strong>C#</strong>, <strong>PHP</strong>, ademas de manejos de datos relacionales (SQL)
+            y creación de paginas web con <strong>CSS</strong>, <strong>Javascript</strong> y <strong>Bootstrap</strong>.
+
+          </p>
+          <p>De manera personal, intento desarrollarme personalmente y he logrado tener conocimientos basicos para tener alternativas
+            de desarrollo a lo aprendido. Lenguajes como <strong>Python</strong>, junto a su framework web <strong>Django</strong> y
+            lo basico de <strong>ReactJS</strong> para desarrollar aplicaciones web.
+          </p>
+          <img src={imagenProgramacion} alt="Programacion" width="10%" height="10%" />
         </div>
       </div>
     );

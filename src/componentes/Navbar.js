@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import Logo from "../imagenes/logo.svg";
-import Scroll from "./Scroll";
+import Scroll from "./miniComponentes/Scroll";
 
 export default class Navbar extends Component {
   render() {
     return (
       <div>
         <nav className="navbar navbar-dark navbar-expand-lg">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             <img src={Logo} width="30" height="30" alt="Logo" />
           </a>
           <button
@@ -23,7 +23,7 @@ export default class Navbar extends Component {
               <Scroll
                 hacia="acercade"
                 clase="nav-item nav-link"
-                texto="Acerca de"
+                texto="Acerca de mi"
               />
               <Scroll
                 hacia="contacto"

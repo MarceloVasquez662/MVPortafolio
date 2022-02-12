@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Scroll from "./Scroll";
+import Scroll from "./miniComponentes/Scroll";
 
 export default class Banner extends Component {
   render() {
@@ -7,9 +7,9 @@ export default class Banner extends Component {
       <div className="textoBanner">
         <div className="hps">
           <h1>{this.props.titulo}</h1>
-          <p>
-            {this.props.subtitulo} <br /> {this.props.subtitulo2}{" "}
-          </p>
+          <h6>
+            {this.props.subtitulo} <br /> {this.props.subtitulo2}
+          </h6>
         </div>
         <Scroll
           hacia="acercade"

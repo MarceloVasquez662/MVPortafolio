@@ -4,6 +4,7 @@ import Navbar from "./componentes/Navbar";
 import Banner from "./componentes/Banner";
 import Acerca from "./componentes/Acerca";
 import Contacto from "./componentes/Contacto";
+import Proyectos from "./componentes/Proyecto"
 import Footer from "./componentes/Footer";
 
 export default class App extends Component {
@@ -13,14 +14,17 @@ export default class App extends Component {
         <div className="banner">
           <Navbar />
           <Banner
-            titulo="Bienvenido a mi primera SPA"
-            subtitulo="Averigua mas acerca de la pagina en la seccion 'Acerca de'"
-            subtitulo2="Ademas puedes contactarte con nosotros en la seccion 'Contacto'"
+            titulo="Portafolio"
+            subtitulo="Marcelo Vasquez"
+            subtitulo2="Titulado Analista Programador Año 2019"
           />
         </div>
         <div className="acercade">
           <Acerca />
         </div>
+        <hr width="80%" />
+        <div className="proyectos"></div>
+        <Proyectos />
         <hr width="80%" />
         <div className="contacto">
           <Contacto />
