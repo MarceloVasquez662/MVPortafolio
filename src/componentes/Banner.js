@@ -14,7 +14,7 @@ export default class Banner extends Component {
         <Scroll
           hacia="acercade"
           clase="btn btn-success mr-2 col-4 mb-5"
-          texto="Acerca de la pagina"
+          texto="Acerca de mi"
         />
         <Scroll
           hacia="contacto"

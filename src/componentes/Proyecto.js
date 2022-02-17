@@ -50,8 +50,8 @@ export default class Proyectos extends Component {
                         ancho="30%"
                         link="https://github.com/MarceloVasquez662/django-QRMascota-local"
                     />
-                    <Card titulo="Ordena tu carpeta"
-                        cuerpo="Tu carpeta descargas esta desordenada? Ejecuta la aplicacion y organiza tu carpeta automaticamente"
+                    <Card titulo="Ordena y limpia"
+                        cuerpo="Organiza tu carpeta automaticamente. Ademas limpia tus temporales y seguido vacia tu papelera"
                         imagen={folder}
                         alto="30%"
                         ancho="30%"
