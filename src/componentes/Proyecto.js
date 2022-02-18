@@ -6,6 +6,8 @@ import imagen from "../imagenes/logoimage.svg"
 import menu from "../imagenes/logomenu.svg"
 import pet from "../imagenes/logopet.svg"
 import folder from "../imagenes/logofolder.svg"
+import book from "../imagenes/logobook.svg"
+import school from "../imagenes/logoschool.svg"
 
 export default class Proyectos extends Component {
     render() {
@@ -32,8 +34,8 @@ export default class Proyectos extends Component {
                     <Card titulo="React Busca Imagen"
                         cuerpo="Busca tus imagenes favoritas con el consumi de la API de Pixabay"
                         imagen={imagen}
-                        alto="40%"
-                        ancho="40%"
+                        alto="30%"
+                        ancho="30%"
                         link="https://marcelovasquez662.github.io/react_buscador/"
                     />
                     <Card titulo="React Menu Online"
@@ -56,6 +58,20 @@ export default class Proyectos extends Component {
                         alto="30%"
                         ancho="30%"
                         link="https://github.com/MarceloVasquez662/python_automatizacion-descargas"
+                    />
+                    <Card titulo="Gestion Biblioteca"
+                        cuerpo="Codigo fuente proyecto 'Gestion Biblioteca' de ultimo semestre de la carrera. Desarrollado en Java"
+                        imagen={book}
+                        alto="30%"
+                        ancho="30%"
+                        link="https://github.com/MarceloVasquez662/java_biblioteca"
+                    />
+                    <Card titulo="Gestion Colegio"
+                        cuerpo="Codigo fuente proyecto 'Administracion Colegio' de quinto semestre. Desarrollada mayormente en PHP"
+                        imagen={school}
+                        alto="30%"
+                        ancho="30%"
+                        link="https://github.com/MarceloVasquez662/php_colegio"
                     />
                 </div>
             </div>

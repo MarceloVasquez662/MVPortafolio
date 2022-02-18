@@ -2,22 +2,22 @@ import React from "react";
 
 function Card(props) {
   return (
-    <article className="m-3 p-3 text-center">
-      <div className="imagenCard">
-        <img
-          src={props.imagen}
-          alt="React"
-          width={props.ancho}
-          height={props.alto}
-          className="mx-auto"
-        />
+    <div className="card">
+      <img
+        src={props.imagen}
+        width={props.ancho}
+        height={props.alto}
+        alt="React"
+        className="card-img-top"
+      />
+      <div className="card-body">
+        <h5 className="card-title text-center">{props.titulo}</h5>
+        <p className="card-text">{props.cuerpo}</p>
       </div>
-      <div className="textoCard">
-        <h5>{props.titulo}</h5>
-        <p>{props.cuerpo}</p>
-        <a href={props.link} target="blank">Ir al proyecto</a>
+      <div className="card-footer text-center">
+        <a href={props.link} target="blank" className="btn btn-primary">Ir al proyecto</a>
       </div>
-    </article>
+    </div>
   );
 }
 

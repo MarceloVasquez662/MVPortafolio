@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import LogoAcerca from "../imagenes/Acerca.svg";
-import imagenProgramacion from "../imagenes/iconProgramacion.svg"
 
 
 export default class Acerca extends Component {
@@ -29,7 +28,6 @@ export default class Acerca extends Component {
             de desarrollo a lo aprendido. Lenguajes como <strong>Python</strong>, junto a su framework web <strong>Django</strong> y
             lo basico de <strong>ReactJS</strong> para desarrollar aplicaciones web.
           </p>
-          <img src={imagenProgramacion} alt="Programacion" width="10%" height="10%" />
         </div>
       </div>
     );
