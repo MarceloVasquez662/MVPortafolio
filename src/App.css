@@ -35,6 +35,21 @@ p {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+.imagenPerfil{
+  border-radius: 100%;
+  width: 10%;
+  height: 10%;
+  margin-bottom: 2%;
+}
+
+@media(max-width:600px){
+  .imagenPerfil{
+    width: 50%;
+    height: 50%;
+    margin-bottom: 5%;
+  }
+}
+
 .hps {
   margin-top: 50px;
   margin-bottom: 50px;

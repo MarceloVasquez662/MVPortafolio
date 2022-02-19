@@ -15,7 +15,6 @@ export default class App extends Component {
         <div className="banner">
           <Navbar />
           <Banner
-            titulo="Portafolio"
             subtitulo="Marcelo Vasquez"
             subtitulo2="Titulado Analista Programador Año 2019"
           />
