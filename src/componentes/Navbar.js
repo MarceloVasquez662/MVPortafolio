@@ -23,7 +23,7 @@ export default class Navbar extends Component {
               <Scroll
                 hacia="acercade"
                 clase="nav-item nav-link"
-                texto="Acerca de mí"
+                texto="Acerca de mía"
               />
               <Scroll
                 hacia="contacto"
