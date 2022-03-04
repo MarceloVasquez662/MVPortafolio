@@ -31,9 +31,6 @@ export default class App extends Component {
           <Proyectos />
         </div>
         <hr width="80%" />
-        <div className="contacto">
-          <Contacto />
-        </div>
         <div className="footer">
           <Footer />
         </div>

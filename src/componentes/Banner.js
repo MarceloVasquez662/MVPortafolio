@@ -17,11 +17,6 @@ export default class Banner extends Component {
           clase="link btn btn-success"
           texto="Acerca de mí"
         />
-        <Scroll
-          hacia="contacto"
-          clase="link btn btn-info"
-          texto="Contacto"
-        />
       </div>
     );
   }

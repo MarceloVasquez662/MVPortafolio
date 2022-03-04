@@ -1,6 +1,20 @@
 import React, { Component } from "react";
 
 export default class Contacto extends Component {
+
+  contacto = e => {
+
+
+    e.preventDefault();
+    let nombre = document.getElementById("nombre").value
+    let email = document.getElementById("email").value
+    let mensaje = document.getElementById("mensaje").value
+
+    let contacto = document.getElementById("contacto")
+    contacto.setAttribute("href", `mailto: marcelovasquez662@gmail.com?subject = ${nombre}${email}& body=${mensaje}`)
+    contacto.click()
+  }
+
   render() {
     return (
       <div className="container p-5">
@@ -14,9 +28,11 @@ export default class Contacto extends Component {
           />
           <h1>Contacto</h1>
         </div>{" "}
-        <form>
+        <form id="form" onSubmit={this.contacto} className="form">
           <div className="form-group col-12">
             <input
+              id="nombre"
+              name="nombre"
               className="form-control"
               placeholder="Ingresa tu nombre"
               required
@@ -24,6 +40,8 @@ export default class Contacto extends Component {
           </div>
           <div className="form-group col-12">
             <input
+              id="email"
+              name="email"
               className="form-control"
               placeholder="Ingresa tu correo"
               type="email"
@@ -32,16 +50,20 @@ export default class Contacto extends Component {
           </div>
           <div className="form-group col-12">
             <textarea
+              id="mensaje"
+              name="mensaje"
               className="form-control "
               placeholder="Tu mensaje"
               required
             />
           </div>
           <div className="text-center">
-            <button className="btn btn-success col-6">Enviar mensaje</button>
+            <input type="submit" className="btn btn-success col-auto" value="Enviar mensaje"></input>
           </div>
         </form>
-      </div>
+        <a href="mailto:marcelovasquez662@gmail.com" id="contacto"></a>
+      </div >
     );
   }
 }
+
