@@ -1,53 +1,42 @@
+body{
+  margin-top: 57px
+}
+
 @import url("https://fonts.googleapis.com/css?family=Teko&display=swap");
-h1,
+h1, h2, h3, h4, h5, 
 p {
   font-family: "Teko", sans-serif;
 }
 
+
 .navbar {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 1);
 }
 
 .banner {
   background-image: url("./imagenes/fondoBanner.jpg");
-  width: 100%;
   background-size: cover;
-  padding-bottom: 100px;
+
+  width: 100%;
+  height: 100vh;
 }
 
 .textoBanner {
   text-align: center;
   color: white;
 
-  border-style: double;
-  border-color: gray;
-  border-radius:;
-
   padding: 50px;
+  height: 100%;
 
-  margin-right: 2%;
-  margin-left: 2%;
-  margin-top: 100px;
+  background-color: rgba(0, 0, 0, .9);
 
-  justify-content: center;
-  word-wrap: break-word;
-
-  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .imagenPerfil{
   border-radius: 100%;
-  width: 10%;
-  height: 10%;
+  width: 15%;
+  height: 15%;
   margin-bottom: 2%;
-}
-
-@media(max-width:600px){
-  .imagenPerfil{
-    width: 50%;
-    height: 50%;
-    margin-bottom: 5%;
-  }
 }
 
 .hps {
@@ -59,38 +48,44 @@ p {
   width: 30%;
   margin: 0.3%;
 }
-@media(max-width:600px){
-  .link{
-    width: 50%;
-  }
-}
 
-.card {
-  border-style: double;
-  width: 80%;
-  word-wrap: break-word;
-  overflow: hidden; 
-  text-align: center;
-  margin: 0.5%;
-}
-
-@media(min-width:600px){
-  .card{
-    width: 30%;
-  }
-} 
-
-.contacto {
-  border-top-style: solid;
-  border-top: black;
-}
-
-textarea {
-  min-height: 50px;
+.card{
+  width: 30%;
+  margin: 5px;
 }
 
 .footer {
   background-color: black;
+}
+
+@media(max-width:1000px){
+  .imagenPerfil{
+    width: 50%;
+    height: 50%;
+    margin-bottom: 5%;
+  }
+  .card{
+    width: 40%;
+  }
+}
+@media(max-width:760px) {
+  .imagenPerfil{
+    width: 80%;
+    height: 80%;
+    margin-bottom: 5%;
+  }
+  .link{
+    width: 50%;
+  }
+
+  .card{
+    width: 100%;
+  }
+}
+
+.contactoFormulario{
+  width: 100%;
+  text-align: center;
 }
 
 a:hover {

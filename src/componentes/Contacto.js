@@ -1,69 +1,91 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
+import emailjs from "emailjs-com"
+import swal from "sweetalert"
+import ContactoCard from './miniComponentes/ContactoCard';
+import logoContact from "../imagenes/iconosSecciones/logoContact.svg";
+import logoFacebook from "../imagenes/iconosContacto/logoFacebook.svg"
+import logoLinkedin from "../imagenes/iconosContacto/logoLinkedin.svg"
+import logoGithub from "../imagenes/iconosContacto/logoGithub.svg"
+
+
 
 export default class Contacto extends Component {
+    render() {
 
-  contacto = e => {
+        const enviarCorreo = (e) => {
+            e.preventDefault();
+
+            emailjs.sendForm('gmail', 'template_1n2babp', e.target, 'mG90bALo1T1XCDGv0')
+                .then((result) => {
+                    console.log(result.text);
+                    swal(
+                        {
+                            title: "Mensaje enviado",
+                            text: "He recibido tu mensaje! <3",
+                            icon: "success",
+                            button: "Aceptar",
+                            timer: "5000"
+                        }
+                    )
+                }, (error) => {
+                    console.log(error.text);
+                    swal(
+                        {
+                            title: "Error al enviar mensaje",
+                            text: "Hubo un error con el servicio :(",
+                            icon: "error",
+                            button: "Aceptar",
+                            timer: "5000"
+                        }
+                    )
+                });
+            e.target.reset()
+        }
 
 
-    e.preventDefault();
-    let nombre = document.getElementById("nombre").value
-    let email = document.getElementById("email").value
-    let mensaje = document.getElementById("mensaje").value
 
-    let contacto = document.getElementById("contacto")
-    contacto.setAttribute("href", `mailto: marcelovasquez662@gmail.com?subject = ${nombre}${email}& body=${mensaje}`)
-    contacto.click()
-  }
+        return (
+            <div>
+                <div className='container p-5 '>
+                    <div className="row">
+                        <img
+                            src={logoContact}
+                            alt="Contacto"
+                            width="40"
+                            height="40"
+                            className="mr-2"
+                        />
+                        <h1>Contacto</h1>
+                    </div>
+                    <div className='row justify-content-center'>
 
-  render() {
-    return (
-      <div className="container p-5">
-        <div className="row">
-          <img
-            src="https://svgsilh.com/svg/304080.svg"
-            width="30"
-            height="30"
-            alt="Contacto"
-            className="mr-2"
-          />
-          <h1>Contacto</h1>
-        </div>{" "}
-        <form id="form" onSubmit={this.contacto} className="form">
-          <div className="form-group col-12">
-            <input
-              id="nombre"
-              name="nombre"
-              className="form-control"
-              placeholder="Ingresa tu nombre"
-              required
-            />
-          </div>
-          <div className="form-group col-12">
-            <input
-              id="email"
-              name="email"
-              className="form-control"
-              placeholder="Ingresa tu correo"
-              type="email"
-              required
-            />
-          </div>
-          <div className="form-group col-12">
-            <textarea
-              id="mensaje"
-              name="mensaje"
-              className="form-control "
-              placeholder="Tu mensaje"
-              required
-            />
-          </div>
-          <div className="text-center">
-            <input type="submit" className="btn btn-success col-auto" value="Enviar mensaje"></input>
-          </div>
-        </form>
-        <a href="mailto:marcelovasquez662@gmail.com" id="contacto"></a>
-      </div >
-    );
-  }
+                        <ContactoCard
+                            href="https://www.facebook.com/marcelo.vasquezmunoz/"
+                            logo={logoFacebook}
+                            nombre="Facebook"
+                        />
+                        <ContactoCard
+                            href="https://www.linkedin.com/in/marcelo-vasquez-13a523199/"
+                            logo={logoLinkedin}
+                            nombre="Linkedin"
+                        />
+                        <ContactoCard
+                            href="https://github.com/MarceloVasquez662"
+                            logo={logoGithub}
+                            nombre="Github"
+                        />
+                    </div>
+                    <div className='contactoFormulario col-auto'>
+                        <h5>Tambien puedes enviarme un correo</h5>
+                        <form onSubmit={enviarCorreo}>
+                            <input type="text" name="nombre" className='form-control m-1' placeholder='Nombre' required />
+                            <input type="email" name="email" className='form-control m-1' placeholder='Email' required />
+                            <textarea name="mensaje" className='form-control m-1' placeholder='Mensaje' required></textarea>
+                            <input type="submit" className='btn btn-success' value="Enviar" />
+                        </form>
+                    </div>
+                </div>
+            </div >
+        )
+    }
 }
-

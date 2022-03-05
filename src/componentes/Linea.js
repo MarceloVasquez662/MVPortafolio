@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import logoLinea from "../imagenes/logoLinea.svg"
+import logoLinea from "../imagenes/iconosSecciones/logoLinea.svg"
 
 export default class Linea extends Component {
     render() {
