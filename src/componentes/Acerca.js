@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import LogoAcerca from "../imagenes/iconosSecciones/logoAcerca.svg";
-import curriculum from "../imagenes/Curriculum.pdf"
+import curriculum from "../imagenes/CV.pdf"
 
 
 export default class Acerca extends Component {
