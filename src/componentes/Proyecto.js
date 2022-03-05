@@ -23,7 +23,7 @@ export default class Proyectos extends Component {
                     />
                     <h1>Proyectos</h1>
                 </div>
-                <div className='proyectos container row justify-content-center'>
+                <div className='proyectos  row justify-content-center'>
                     <Card titulo="React Matemáticas"
                         cuerpo="Aprende las operaciones básicas con la pequeña aplicación en React"
                         imagen={math}
