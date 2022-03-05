@@ -20,8 +20,8 @@ export default class Acerca extends Component {
         <p>Titulado de la carrera Analista Programador, año 2019, CFT Inacap Valdivia.
           Principiante en el mundo de la programación, con ganas de aprender nuevas tecnologías
           e intentando mejorar y pulir lo aprendido. Lo que pude aprender durante mi desarrollo técnico fueron
-          <strong> Java</strong>, <strong>C#</strong>, <strong>PHP</strong>, ademas de manejos de datos relacionales (SQL)
-          y creación de paginas web con <strong>CSS</strong>, <strong>Javascript</strong> y <strong>Bootstrap</strong>.
+          <strong> Java</strong>, <strong>C#</strong>, <strong>PHP</strong>, además de manejos de datos relacionales (SQL)
+          y creación de páginas web con <strong>CSS</strong>, <strong>Javascript</strong> y <strong>Bootstrap</strong>.
 
         </p>
         <p>De manera personal, intento desarrollarme personalmente y he logrado tener conocimientos básicos para tener alternativas

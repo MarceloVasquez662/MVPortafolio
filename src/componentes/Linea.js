@@ -12,7 +12,7 @@ export default class Linea extends Component {
                     height="30"
                     className="mr-2"
                 />
-                <h1>Linea de tiempo</h1>
+                <h1>Línea de tiempo</h1>
             </div>
             <div>
                 <ul className='timeline'>
@@ -35,11 +35,11 @@ export default class Linea extends Component {
                     <li>
                         <strong><p>Quinto Semestre (2019)</p></strong>
                         <p>Desarrollo de 'Gestión Biblioteca' como proyecto final, con generación de la base de datos, creación de pantallas y lanzamiento para ser presentado en clases </p>
-                        <p>Ademas, se hizo la presentación del proyecto 'Administración Colegio' y se concluyó con éxito el proceso de entrega </p>
+                        <p>Además, se hizo la presentación del proyecto 'Administración Colegio' y se concluyó con éxito el proceso de entrega </p>
                     </li>
                     <li>
-                        <strong><p>Practica Profesional (2019)</p></strong>
-                        <p>Desde agosto hasta noviembre realizo práctica en la empresa Innova SPA, como soporte técnico de software Softland</p>
+                        <strong><p>Práctica Profesional (2019)</p></strong>
+                        <p>Desde agosto hasta noviembre realice mi práctica en la empresa Innova SPA, como soporte técnico de software Softland</p>
                     </li>
                     <li>
                         <strong><p>Titulado (2019)</p></strong>

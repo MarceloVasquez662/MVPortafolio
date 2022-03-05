@@ -33,15 +33,15 @@ export default class Proyectos extends Component {
                         linkCode="https://github.com/MarceloVasquez662/react_matematica"
                     />
                     <Card titulo="React Busca Imagen"
-                        cuerpo="Busca tus imagenes favoritas con el consumo de la API de Pixabay"
+                        cuerpo="Busca tus imágenes favoritas con el consumo de la API de Pixabay"
                         imagen={imagen}
                         alto="30%"
                         ancho="30%"
                         linkDemo="https://marcelovasquez662.github.io/react_buscador/"
                         linkCode="https://github.com/MarceloVasquez662/react_buscador"
                     />
-                    <Card titulo="React Menu Online"
-                        cuerpo="Arma tu propio menú online y olvidate de la carta física"
+                    <Card titulo="React Menú Online"
+                        cuerpo="Arma tu propio menú online y olvídate de la carta física"
                         imagen={menu}
                         alto="30%"
                         ancho="30%"
@@ -49,14 +49,14 @@ export default class Proyectos extends Component {
                         linkCode="https://github.com/MarceloVasquez662/react_menu"
                     />
                     <Card titulo="Django QR Animal"
-                        cuerpo="Los datos de tu mascota en un QR, solo colocalo en su collar. (En desarrollo) Solo esta funcionando en modo Local"
+                        cuerpo="Los datos de tu mascota en un QR, solo colocalo en su collar. (En desarrollo) Sólo está funcionando en modo Local"
                         imagen={pet}
                         alto="30%"
                         ancho="30%"
                         linkCode="https://github.com/MarceloVasquez662/django-QRMascota-local"
                     />
                     <Card titulo="Ordena y limpia"
-                        cuerpo="Organiza tu carpeta automáticamente. Ademas limpia tus temporales y seguido vacía tu papelera"
+                        cuerpo="Organiza tu carpeta automáticamente. Además limpia tus archivos temporales y seguido vacía tu papelera"
                         imagen={folder}
                         alto="30%"
                         ancho="30%"

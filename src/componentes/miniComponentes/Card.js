@@ -18,7 +18,7 @@ function Card(props) {
         <p className="card-text">{props.cuerpo}</p>
       </div>
       <div className="card-footer">
-        <a href={props.linkCode} target="blank" className="btn btn-primary col-5 m-1">Codigo</a>
+        <a href={props.linkCode} target="blank" className="btn btn-primary col-5 m-1">Código</a>
         {props.linkDemo ? <a href={props.linkDemo} target="blank" className="btn btn-warning m-1 col-5">Demo</a> : null}
       </div>
     </div >

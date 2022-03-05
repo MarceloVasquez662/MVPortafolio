@@ -33,7 +33,7 @@ export default class Navbar extends Component {
               <Scroll
                 hacia="lineaTiempo"
                 clase="nav-link"
-                texto="Linea de Tiempo"
+                texto="Línea de Tiempo"
               /></li>
 
             <li className="nav-item">
