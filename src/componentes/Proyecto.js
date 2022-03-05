@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import Card from "./miniComponentes/Card"
 import logoProyectos from "../imagenes/iconosSecciones/logoProyectos.svg"
-import math from "../imagenes/iconosProyectos/logomath.svg"
-import imagen from "../imagenes/iconosProyectos/logoimage.svg"
-import menu from "../imagenes/iconosProyectos/logomenu.svg"
-import pet from "../imagenes/iconosProyectos/logopet.svg"
-import folder from "../imagenes/iconosProyectos/logofolder.svg"
-import book from "../imagenes/iconosProyectos/logobook.svg"
-import school from "../imagenes/iconosProyectos/logoschool.svg"
+import math from "../imagenes/iconosProyectos/logomath.jpg"
+import imagen from "../imagenes/iconosProyectos/logoimage.jpg"
+import menu from "../imagenes/iconosProyectos/logomenu.jpg"
+import pet from "../imagenes/iconosProyectos/logopet.jpg"
+import folder from "../imagenes/iconosProyectos/logofolder.jpg"
+import book from "../imagenes/iconosProyectos/logobook.jpg"
+import school from "../imagenes/iconosProyectos/logoschool.jpg"
 
 export default class Proyectos extends Component {
     render() {
@@ -23,7 +23,7 @@ export default class Proyectos extends Component {
                     />
                     <h1>Proyectos</h1>
                 </div>
-                <div className='row justify-content-center'>
+                <div className='proyectos container row justify-content-center'>
                     <Card titulo="React Matemáticas"
                         cuerpo="Aprende las operaciones básicas con la pequeña aplicación en React"
                         imagen={math}
@@ -39,14 +39,6 @@ export default class Proyectos extends Component {
                         ancho="30%"
                         linkDemo="https://marcelovasquez662.github.io/react_buscador/"
                         linkCode="https://github.com/MarceloVasquez662/react_buscador"
-                    />
-                    <Card titulo="React Menú Online"
-                        cuerpo="Arma tu propio menú online y olvídate de la carta física"
-                        imagen={menu}
-                        alto="30%"
-                        ancho="30%"
-                        linkDemo="https://marcelovasquez662.github.io/react_menu/"
-                        linkCode="https://github.com/MarceloVasquez662/react_menu"
                     />
                     <Card titulo="Django QR Animal"
                         cuerpo="Los datos de tu mascota en un QR, solo colocalo en su collar. (En desarrollo) Sólo está funcionando en modo Local"
@@ -75,6 +67,14 @@ export default class Proyectos extends Component {
                         alto="30%"
                         ancho="30%"
                         linkCode="https://github.com/MarceloVasquez662/php_colegio"
+                    />
+                    <Card titulo="React Menú Online"
+                        cuerpo="Arma tu propio menú online y olvídate de la carta física"
+                        imagen={menu}
+                        alto="30%"
+                        ancho="30%"
+                        linkDemo="https://marcelovasquez662.github.io/react_menu/"
+                        linkCode="https://github.com/MarceloVasquez662/react_menu"
                     />
                 </div>
             </div>

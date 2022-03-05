@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "56b947f0fb14abaeec77306bb717cac2",
+    "revision": "7c2903edfc867913bc5f9ff496eb55fc",
     "url": "/react_spa/index.html"
   },
   {
-    "revision": "7f7b6e680d7f8e8adafb",
-    "url": "/react_spa/static/css/main.58ebef77.chunk.css"
+    "revision": "17833eacb5c22ddc7e6d",
+    "url": "/react_spa/static/css/main.3d7d5218.chunk.css"
   },
   {
     "revision": "03c819eca2611231eed9",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react_spa/static/js/2.3c8729ae.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7f7b6e680d7f8e8adafb",
-    "url": "/react_spa/static/js/main.8ef80626.chunk.js"
+    "revision": "17833eacb5c22ddc7e6d",
+    "url": "/react_spa/static/js/main.8bc32121.chunk.js"
   },
   {
     "revision": "5d3e7a3f9737ed23208e",
@@ -68,31 +68,31 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react_spa/static/media/logoProyectos.671fa66c.svg"
   },
   {
-    "revision": "44505fe377fbb7bba800a76fcf08df9a",
-    "url": "/react_spa/static/media/logobook.44505fe3.svg"
+    "revision": "5854a098d0f6e20c1f92e328ff9bdd67",
+    "url": "/react_spa/static/media/logobook.5854a098.jpg"
   },
   {
-    "revision": "7345ae26874f73c49f1a504c35965fc8",
-    "url": "/react_spa/static/media/logofolder.7345ae26.svg"
+    "revision": "7c682d7bdbf1a33826d688d6763adae5",
+    "url": "/react_spa/static/media/logofolder.7c682d7b.jpg"
   },
   {
-    "revision": "3c6b8959633735cd641e211adf8930c8",
-    "url": "/react_spa/static/media/logoimage.3c6b8959.svg"
+    "revision": "e61a28a491a0798e88635588cee62071",
+    "url": "/react_spa/static/media/logoimage.e61a28a4.jpg"
   },
   {
-    "revision": "3c02366489501b00cfa7209cf47a7179",
-    "url": "/react_spa/static/media/logomath.3c023664.svg"
+    "revision": "f25640d7581289bd30c0efa47b403747",
+    "url": "/react_spa/static/media/logomath.f25640d7.jpg"
   },
   {
-    "revision": "e6cc74120705080b10d2d087389a3148",
-    "url": "/react_spa/static/media/logomenu.e6cc7412.svg"
+    "revision": "44f9e8b1e5171664fac95df1f9b58024",
+    "url": "/react_spa/static/media/logomenu.44f9e8b1.jpg"
   },
   {
-    "revision": "ff07f21b9e59064d83df290c706216ac",
-    "url": "/react_spa/static/media/logopet.ff07f21b.svg"
+    "revision": "4695dbf1c8d6989806d1438789278d40",
+    "url": "/react_spa/static/media/logopet.4695dbf1.jpg"
   },
   {
-    "revision": "05b74dd845c3ad87a706a34c48cbb990",
-    "url": "/react_spa/static/media/logoschool.05b74dd8.svg"
+    "revision": "8662618f1714f1ed2415a340ab74c47a",
+    "url": "/react_spa/static/media/logoschool.8662618f.jpg"
   }
 ]);

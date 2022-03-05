@@ -2,10 +2,10 @@ body{
   margin-top: 57px
 }
 
-@import url("https://fonts.googleapis.com/css?family=Teko&display=swap");
-h1, h2, h3, h4, h5, 
+@import url("https://fonts.googleapis.com/css?family=Trirong");
+h1, h2, h3, h4, h5,h6, a, 
 p {
-  font-family: "Teko", sans-serif;
+  font-family: "Trirong", sans-serif;
 }
 
 
@@ -49,38 +49,35 @@ p {
   margin: 0.3%;
 }
 
-.card{
-  width: 30%;
-  margin: 5px;
+.proyectos{
+  display: flex;
 }
 
-.footer {
-  background-color: black;
+.tarjeta{
+  border-radius: 10px;
+  border-color: black;
+  border-style: solid;
+
+  color: white;
+
+  background-size: cover;
+  
+  padding: 20px;
+  margin: 1%;
+
+  width: 47%;
 }
 
-@media(max-width:1000px){
-  .imagenPerfil{
-    width: 50%;
-    height: 50%;
-    margin-bottom: 5%;
-  }
-  .card{
-    width: 40%;
-  }
+.tarjeta .texto{
+  padding: 10%;
 }
-@media(max-width:760px) {
-  .imagenPerfil{
-    width: 80%;
-    height: 80%;
-    margin-bottom: 5%;
-  }
-  .link{
-    width: 50%;
-  }
 
-  .card{
-    width: 100%;
-  }
+.tarjeta .cuerpo{
+  background-color: rgba(0, 0, 0, .7);
+  backdrop-filter: blur(2px);
+
+  border-radius: 10px;
+  height: 100%;
 }
 
 .contactoFormulario{
@@ -88,8 +85,46 @@ p {
   text-align: center;
 }
 
-a:hover {
+.footer {
+  background-color: black;
+}
+
+@media(max-width:1200px){
+  .imagenPerfil{
+    width: 50%;
+    height: 50%;
+    margin-bottom: 5%;
+  }
+  .tarjeta{
+    width: 90%;
+  }
+}
+
+@media(max-width:760px) {
+  .imagenPerfil{
+    width: 60%;
+    height: 60%;
+    margin-bottom: 5%;
+  }
+  .link{
+    width: 50%;
+  }
+  .tarjeta{
+    width: 100%;
+  }
+}
+
+a:hover{
   cursor: pointer;
+}
+
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, p:hover{
+  cursor: default;
+}
+
+.tarjeta:hover{
+  filter: saturate(200%);
+  transition:all .5s ease-in-out;
 }
 
 ul.timeline {
