@@ -63,7 +63,7 @@ export default class Proyectos extends Component {
                         linkCode="https://github.com/MarceloVasquez662/python_automatizacion-descargas"
                     />
                     <Card titulo="Gestión Biblioteca"
-                        cuerpo="Código fuente proyecto 'Gestión Biblioteca' de ultimo semestre de la carrera. Desarrollado en Java"
+                        cuerpo="Código fuente proyecto 'Gestión Biblioteca' de último semestre de la carrera. Desarrollado en Java"
                         imagen={book}
                         alto="30%"
                         ancho="30%"

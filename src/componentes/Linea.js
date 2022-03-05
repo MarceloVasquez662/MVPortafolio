@@ -26,7 +26,7 @@ export default class Linea extends Component {
                     </li>
                     <li>
                         <strong><p>Inicio proyecto 'Administración Colegio' en PHP (2018)</p></strong>
-                        <p>Se comienza con toma de requerimientos y primero bocetos de la aplicación</p>
+                        <p>Se comienza con toma de requerimientos y primeros bocetos de la aplicación</p>
                     </li>
                     <li>
                         <strong><p>Cuarto Semestre (2018)</p></strong>
@@ -35,11 +35,11 @@ export default class Linea extends Component {
                     <li>
                         <strong><p>Quinto Semestre (2019)</p></strong>
                         <p>Desarrollo de 'Gestión Biblioteca' como proyecto final, con generación de la base de datos, creación de pantallas y lanzamiento para ser presentado en clases </p>
-                        <p>Ademas, se hizo la presentación del proyecto 'Administración Colegio' y se concluyo con éxito el proceso de entrega </p>
+                        <p>Ademas, se hizo la presentación del proyecto 'Administración Colegio' y se concluyó con éxito el proceso de entrega </p>
                     </li>
                     <li>
                         <strong><p>Practica Profesional (2019)</p></strong>
-                        <p>Desde agosto hasta noviembre realizo practica en la empresa Innova SPA, como soporte técnico de software Softland</p>
+                        <p>Desde agosto hasta noviembre realizo práctica en la empresa Innova SPA, como soporte técnico de software Softland</p>
                     </li>
                     <li>
                         <strong><p>Titulado (2019)</p></strong>
