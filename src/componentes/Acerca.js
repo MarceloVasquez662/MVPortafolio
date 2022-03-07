@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import TituloSeccion from "./miniComponentes/TituloSeccion";
 import LogoAcerca from "../imagenes/iconosSecciones/logoAcerca.svg";
 import curriculum from "../imagenes/CV.pdf"
 
@@ -6,17 +7,11 @@ import curriculum from "../imagenes/CV.pdf"
 export default class Acerca extends Component {
   render() {
     return (
-      <div className="container p-5">
-        <div className="row">
-          <img
-            src={LogoAcerca}
-            alt="Acerca de mi"
-            width="30"
-            height="30"
-            className="mr-2"
-          />
-          <h1>Acerca de mi</h1>
-        </div>
+      <div className="container p-5 ">
+        <TituloSeccion
+          imagen={LogoAcerca}
+          titulo={"Acerca de mí"}
+        />
         <p>Titulado de la carrera Analista Programador, año 2019, CFT Inacap Valdivia.
           Principiante en el mundo de la programación, con ganas de aprender nuevas tecnologías
           e intentando mejorar y pulir lo aprendido. Lo que pude aprender durante mi desarrollo técnico fueron

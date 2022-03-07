@@ -11,7 +11,7 @@ import Footer from "./componentes/Footer";
 export default class App extends Component {
   render() {
     return (
-      <div>
+      <div >
         <div className="navbar">
           <Navbar />
         </div>
@@ -20,22 +20,30 @@ export default class App extends Component {
           <Banner
             subtitulo="Marcelo Vasquez"
             subtitulo2="Titulado Analista Programador Año 2019"
-          /></div>
+          />
+        </div>
 
-        <hr width="80%" className="acercade" />
+        <div className="container">
+          <hr width="100%" className="acercade" />
+        </div>
         <Acerca />
 
-        <hr width="80%" className="lineaTiempo" />
+        <div className="container">
+          <hr width="100%" className="linea" />
+        </div>
         <Linea />
 
-        <hr width="80%" className="proyectos" />
+        <div className="container">
+          <hr width="100%" className="proyectos" />
+        </div>
         <Proyectos />
 
-        <hr width="80%" className="contacto" />
+        <div className="container">
+          <hr width="100%" className="contacto" />
+        </div>
         <Contacto />
 
 
-        <hr width="80%" />
         <div className="footer">
           <Footer />
         </div>

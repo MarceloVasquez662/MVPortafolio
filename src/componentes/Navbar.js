@@ -5,7 +5,7 @@ import Scroll from "./miniComponentes/Scroll";
 export default class Navbar extends Component {
   render() {
     return (
-      <nav className="navbar navbar-dark navbar-expand-lg fixed-top">
+      <nav className="navbar navbar-dark navbar-expand-lg fixed-top ">
         <a className="navbar-brand" href="/">
           <img src={Logo} width="30" height="30" alt="Logo" />
         </a>
@@ -31,7 +31,7 @@ export default class Navbar extends Component {
 
             <li className="nav-item">
               <Scroll
-                hacia="lineaTiempo"
+                hacia="linea"
                 clase="nav-link"
                 texto="Línea de Tiempo"
               /></li>

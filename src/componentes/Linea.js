@@ -1,18 +1,15 @@
 import React, { Component } from 'react'
+import TituloSeccion from './miniComponentes/TituloSeccion'
 import logoLinea from "../imagenes/iconosSecciones/logoLinea.svg"
 
 export default class Linea extends Component {
     render() {
         return <div className='container p-5'>
-            <div className="row">
-                <img
-                    src={logoLinea}
-                    alt="Línea de tiempo"
-                    width="30"
-                    height="30"
-                    className="mr-2"
+            <div className="">
+                <TituloSeccion
+                    imagen={logoLinea}
+                    titulo={"Línea de tiempo"}
                 />
-                <h1>Línea de tiempo</h1>
             </div>
             <div>
                 <ul className='timeline'>

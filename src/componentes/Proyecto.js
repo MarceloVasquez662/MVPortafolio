@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Card from "./miniComponentes/Card"
+import TituloSeccion from './miniComponentes/TituloSeccion';
 import logoProyectos from "../imagenes/iconosSecciones/logoProyectos.svg"
 import math from "../imagenes/iconosProyectos/logomath.jpg"
 import imagen from "../imagenes/iconosProyectos/logoimage.jpg"
@@ -13,16 +14,10 @@ export default class Proyectos extends Component {
     render() {
         return (
             <div className='container p-5'>
-                <div className="row">
-                    <img
-                        src={logoProyectos}
-                        alt="Proyectos"
-                        width="40"
-                        height="40"
-                        className="mr-2"
-                    />
-                    <h1>Proyectos</h1>
-                </div>
+                <TituloSeccion
+                    imagen={logoProyectos}
+                    titulo={"Proyectos"}
+                />
                 <div className='proyectos  row justify-content-center'>
                     <Card titulo="React Matemáticas"
                         cuerpo="Aprende las operaciones básicas con la pequeña aplicación en React"

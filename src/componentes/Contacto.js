@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import emailjs from "emailjs-com"
 import swal from "sweetalert"
+import TituloSeccion from './miniComponentes/TituloSeccion';
 import ContactoCard from './miniComponentes/ContactoCard';
 import logoContact from "../imagenes/iconosSecciones/logoContact.svg";
 import logoFacebook from "../imagenes/iconosContacto/logoFacebook.svg"
@@ -47,17 +48,11 @@ export default class Contacto extends Component {
         return (
             <div>
                 <div className='container p-5 '>
-                    <div className="row">
-                        <img
-                            src={logoContact}
-                            alt="Contacto"
-                            width="40"
-                            height="40"
-                            className="mr-2"
-                        />
-                        <h1>Contacto</h1>
-                    </div>
-                    <div className='row justify-content-center'>
+                    <TituloSeccion
+                        imagen={logoContact}
+                        titulo={"Contacto"}
+                    />
+                    <div className="contactos row justify-content-center">
 
                         <ContactoCard
                             href="https://www.facebook.com/marcelo.vasquezmunoz/"
@@ -77,7 +72,7 @@ export default class Contacto extends Component {
                     </div>
                     <div className='contactoFormulario col-auto'>
                         <h5>Tambien puedes enviarme un correo</h5>
-                        <form onSubmit={enviarCorreo}>
+                        <form onSubmit={enviarCorreo} >
                             <input type="text" name="nombre" className='form-control m-1' placeholder='Nombre' required />
                             <input type="email" name="email" className='form-control m-1' placeholder='Email' required />
                             <textarea name="mensaje" className='form-control m-1' placeholder='Mensaje' required></textarea>
