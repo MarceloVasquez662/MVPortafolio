@@ -6,7 +6,7 @@ export default class Navbar extends Component {
   render() {
     return (
       <nav className="navbar navbar-dark navbar-expand-lg fixed-top ">
-        <a className="navbar-brand" href="/">
+        <a className="navbar-brand" href="https://marcelovasquez662.github.io/react_spa/">
           <img src={Logo} width="30" height="30" alt="Logo" />
         </a>
         <button

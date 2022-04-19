@@ -6,6 +6,7 @@ import math from "../imagenes/iconosProyectos/logomath.jpg"
 import imagen from "../imagenes/iconosProyectos/logoimage.jpg"
 import menu from "../imagenes/iconosProyectos/logomenu.jpg"
 import pet from "../imagenes/iconosProyectos/logopet.jpg"
+import javapet from "../imagenes/iconosProyectos/logojavapet.jpg"
 import folder from "../imagenes/iconosProyectos/logofolder.jpg"
 import book from "../imagenes/iconosProyectos/logobook.jpg"
 import school from "../imagenes/iconosProyectos/logoschool.jpg"
@@ -42,6 +43,13 @@ export default class Proyectos extends Component {
                         ancho="30%"
                         linkCode="https://github.com/MarceloVasquez662/django-QRMascota-local"
                     />
+                    <Card titulo="QR Mascotas en Java"
+                        cuerpo="Aplicación pensada en funcionar como totem para el registro de mascotas. Usala, consigue tu QR y colocala en su nuevo collar"
+                        imagen={javapet}
+                        alto="30%"
+                        ancho="30%"
+                        linkCode="https://github.com/MarceloVasquez662/Java_QRMascotas"
+                    />
                     <Card titulo="Ordena y limpia"
                         cuerpo="Organiza tu carpeta automáticamente. Además limpia tus archivos temporales y seguido vacía tu papelera"
                         imagen={folder}
@@ -64,13 +72,14 @@ export default class Proyectos extends Component {
                         linkCode="https://github.com/MarceloVasquez662/php_colegio"
                     />
                     <Card titulo="React Menú Online"
-                        cuerpo="Arma tu propio menú online y olvídate de la carta física"
+                        cuerpo="Arma tu propio menú online y olvídate de la carta física. Solo con un archivo de datos local, muestra tus productos de manera virtual"
                         imagen={menu}
                         alto="30%"
                         ancho="30%"
                         linkDemo="https://marcelovasquez662.github.io/react_menu/"
                         linkCode="https://github.com/MarceloVasquez662/react_menu"
                     />
+
                 </div>
             </div>
         );
