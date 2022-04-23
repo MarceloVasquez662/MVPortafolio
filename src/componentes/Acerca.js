@@ -13,8 +13,10 @@ export default class Acerca extends Component {
           titulo={"Acerca de mí"}
         />
         <div className="textoAcerca">
-          <p>Titulado de la carrera Analista Programador, año 2019, CFT Inacap Valdivia.
-            Con el manejo de  Java, C#, PHP, además de bases de datos relacionales (SQL) y creación de páginas mediante React o Django, logro desarrollar proyectos personales y academicos. Estoy en constante aprendizaje para tener conocimientos y alternativas de desarrollo y siempre mejorando para crecer como profesional.
+          <p>TAnalista Programador, proactivo, aprendiendo constantemente y buscando nuevas tecnologías para continuar
+            mejorando. Mi objetivo es ofrecer soluciones de calidad, mejorando la experiencia del usuario a través del uso
+            de aplicaciones. Lo que mas me gusta de mi profesión es resolver problemas, equivocarme y lograr solucionar
+            mediante el estudio y las pruebas.
           </p>
           <p>Entusiasta, curioso y preparado para enfrentar retos, con muchas ganas de innovar y absorber toda la información.</p>
         </div>

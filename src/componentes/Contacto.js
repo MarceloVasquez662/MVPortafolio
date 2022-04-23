@@ -60,7 +60,7 @@ export default class Contacto extends Component {
                             nombre="Facebook"
                         />
                         <ContactoCard
-                            href="https://www.linkedin.com/in/marcelo-vasquez-13a523199/"
+                            href="https://www.linkedin.com/in/marcelovasquez662/"
                             logo={logoLinkedin}
                             nombre="Linkedin"
                         />
