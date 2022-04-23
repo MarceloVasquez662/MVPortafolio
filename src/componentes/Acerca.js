@@ -13,7 +13,7 @@ export default class Acerca extends Component {
           titulo={"Acerca de mí"}
         />
         <div className="textoAcerca">
-          <p>TAnalista Programador, proactivo, aprendiendo constantemente y buscando nuevas tecnologías para continuar
+          <p>Analista Programador, proactivo, aprendiendo constantemente y buscando nuevas tecnologías para continuar
             mejorando. Mi objetivo es ofrecer soluciones de calidad, mejorando la experiencia del usuario a través del uso
             de aplicaciones. Lo que mas me gusta de mi profesión es resolver problemas, equivocarme y lograr solucionar
             mediante el estudio y las pruebas.
