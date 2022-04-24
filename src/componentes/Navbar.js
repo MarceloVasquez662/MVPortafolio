@@ -1,14 +1,15 @@
 import React, { Component } from "react";
 import Logo from "../imagenes/logo.svg";
 import Scroll from "./miniComponentes/Scroll";
+import { Link } from "react-scroll"
 
 export default class Navbar extends Component {
   render() {
     return (
       <nav className="navbar navbar-dark navbar-expand-lg fixed-top ">
-        <a className="navbar-brand" href="https://marcelovasquez662.github.io/react_spa/">
-          <img src={Logo} width="30" height="30" alt="Logo" />
-        </a>
+        <Link className="navbar-brand" to="navbar" spy={true} smooth={true}>
+          <img src={Logo} height="30" width="30" alt="logo"></img>
+        </Link>
         <button
           className="navbar-toggler"
           data-target="#menu"

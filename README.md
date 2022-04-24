@@ -10,7 +10,7 @@ Bienvenido a mi Portafolio.
 
 Te adjunto mi pagina web alojada en Github Pages:
 
-https://marcelovasquez662.github.io/react_spa/
+https://marcelovasquez662.github.io/MVPortafolio/
 
 ## Estado del proyecto
 
